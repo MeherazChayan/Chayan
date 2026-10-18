@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Meheraz Research Portfolio">
-  <rect width="64" height="64" rx="14" fill="#162033"/>
+  <rect width="64" height="64" rx="14" fill="#254f3d"/>
   <path d="M14 44V18h7.2L32 34.2 42.8 18H50v26h-7V29.2L32 45 21 29.2V44z" fill="#fff"/>
   <circle cx="51" cy="13" r="4" fill="#d5a13a"/>
 </svg>
