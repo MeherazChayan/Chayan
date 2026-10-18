@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ArrowUpRight, BookOpen, Check, ChevronDown, CodeXml as Github, Download, ExternalLink, MapPin, Menu, X } from 'lucide-react';
 import { FaLinkedin } from 'react-icons/fa';
-import { FaAddressBook, FaBookOpen, FaBrain, FaCertificate, FaCodeBranch, FaGraduationCap, FaLaptopCode, FaMicrochip, FaProjectDiagram, FaSlidersH, FaTrophy } from 'react-icons/fa';
+import { FaAddressBook, FaBookOpen, FaCertificate, FaCodeBranch, FaCompass, FaGraduationCap, FaLaptopCode, FaMicrochip, FaProjectDiagram, FaSlidersH, FaTrophy } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { MdEmail } from 'react-icons/md';
 import { SiCisco, SiGooglescholar } from 'react-icons/si';
@@ -28,7 +28,7 @@ export default function App(){
         <div className="portrait-wrap"><div className="portrait"><img src={asset('/portrait.jpg')} alt="Md. Meheraz Hossain Chayan" fetchPriority="high"/></div></div>
       </section>
 
-      <section className="profile band"><div className="wrap"><header className="section-head"><h2><FaBrain/>Research Interests</h2></header><div className="profile-content"><p>My research focuses on human-centered computing, combining quantitative and qualitative user research with the design and evaluation of trustworthy interactive systems.</p><div className="interest-grid">{interests.map(x=><div key={x}>{x}</div>)}</div></div></div></section>
+      <section className="profile band"><div className="wrap"><header className="section-head"><h2><FaCompass/>Research Interests</h2></header><div className="profile-content"><p>My research focuses on human-centered computing, combining quantitative and qualitative user research with the design and evaluation of trustworthy interactive systems.</p><div className="interest-grid">{interests.map(x=><div key={x}>{x}</div>)}</div></div></div></section>
 
       <section id="education" data-nav="Education" className="section wrap"><SectionHead eyebrow="02 · Education" title="Academic foundation" copy="A computing education shaped by research, systems thinking, and close attention to how people experience technology."/><div className="education-card"><div className="edu-main"><Mark label="BRAC University" logo="/logos/brac.png"/><div><span className="meta">2022—2026 · Completed</span><h3>Bachelor of Science in Computer Science</h3><p>BRAC University · CGPA 3.46 / 4.00</p></div><div className="cgpa"><strong>3.46</strong><span>out of 4.00</span></div></div><div className="thesis"><BookOpen/><div><span>Undergraduate thesis</span><p>Security and Usability of a Failure-Resilient News Provenance System in a Fragile Information Ecosystem: Architecture and Controlled User Evaluation.</p></div></div><details className="course-panel"><summary>Relevant courses & results <ChevronDown/></summary><div className="course-table">{courses.map(c=><div key={c[0]}><code>{c[0]}</code><span>{c[1]}</span><b>{c[2]}</b><small>GPA {c[3]}</small></div>)}</div></details></div></section>
 
