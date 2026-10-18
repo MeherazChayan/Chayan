@@ -37,6 +37,7 @@ summary{list-style:none;cursor:pointer}summary::-webkit-details-marker{display:n
 #publications{background:#edf1e9;box-shadow:0 0 0 100vmax #edf1e9;clip-path:inset(0 -100vmax)}
 #publications .pub-groups{gap:24px}
 #publications .pub-group{grid-template-columns:155px minmax(0,1fr);gap:20px;align-items:start}
+#publications .pub-group+.pub-group{border-top:1px solid #c5d2c2;padding-top:24px}
 #publications .pub-label{background:#fff;border:1px solid #d4ded0;border-left:3px solid var(--green-mid);box-shadow:0 8px 24px #294b3608;padding:14px 15px}
 #publications .pub-list{display:grid;gap:16px;border:0}
 #publications .publication{overflow:hidden;background:#fff;border:1px solid #d4ded0;border-radius:12px;box-shadow:0 8px 24px #294b3608}
