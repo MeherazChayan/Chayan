@@ -24,12 +24,12 @@ export const experiences = [
   { type:'Technical experience', role:'Web Development Intern', org:'Interactive Cares, Dhaka', date:'Feb–Apr 2023', mark:'IC', points:['Developed responsive web interfaces with reusable components using HTML, CSS, JavaScript, and React, with close attention to usability, visual consistency, and maintainable implementation.','Contributed to frontend delivery and full stack development workflows, strengthening practical experience in translating requirements into functional features for users.'] }
 ];
 
-export const skillGroups = [
-  ['Research Methods','Experimental design · Dataset preparation · Research prototyping · Software development · System architecture design and refinement · Survey/interview design · Usability studies · Qualitative/statistical analysis · Comparative evaluation · Academic writing'],
-  ['AI & Data','Python · SQL · Pandas · NumPy · Scikit-learn · PyTorch · TensorFlow · Machine learning · NLP · Explainable AI · Model evaluation'],
-  ['HCI & Trustworthy AI','Human–AI interaction · Responsible AI · Multimodal verification · Digital trust · Bounded agents · User decision-making'],
-  ['Security & Privacy','Network and IoT security · Cryptography · Secure systems · Threat analysis · Wireshark · Linux'],
-  ['Development','Java · JavaScript · React · MERN/FARM stacks · Git · APIs · LLM/RAG and agentic workflows']
+export const skillGroups: [string,string[]][] = [
+  ['Research & User Studies',['Study design','Surveys and interviews','Usability testing','Qualitative analysis','Statistical analysis','Dataset preparation','Academic writing']],
+  ['Machine Learning & Data Analysis',['Python','SQL','Pandas','NumPy','Scikit learn','PyTorch','TensorFlow','Machine learning','Natural language processing','Model evaluation','Explainable AI']],
+  ['Human Computer Interaction & Responsible AI',['Human centered design','Human AI interaction','Responsible AI','Digital trust','Multimodal verification','AI agent safety','Decision support systems']],
+  ['Cybersecurity & Privacy',['Network security','IoT security','Data privacy','Cryptography','Threat analysis','Secure systems','Wireshark','Linux']],
+  ['Software & AI Development',['Java','JavaScript','React','MERN and FARM stacks','REST APIs','Git','System architecture','Retrieval augmented generation','AI agent workflows']]
 ];
 
 export const publications = [
