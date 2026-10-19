@@ -126,7 +126,7 @@ export const achievements = [
 
 export const certifications = ['Google Data Analytics Professional Certificate · Google','Foundations of Project Management · Google','AI Product Manager Professional Certificate · Microsoft','Machine Learning Specialization · DeepLearning.AI','Cisco Certified Network Associate (CCNA) · Cisco','Introduction to Cybersecurity · Cisco'];
 export const references = [
-  ['Dr. Farida Chowdhury','Professor','BRAC University','farida.chowdhury@bracu.ac.bd','Worked as her Undergraduate Research Assistant'],
+  ['Dr. Farida Chowdhury','Professor','BRAC University','farida.chowdhury@bracu.ac.bd','Undergraduate Thesis Supervisor · Worked as her Undergraduate Research Assistant'],
   ['Dr. Muhammad Iqbal Hossain','Associate Professor','BRAC University','iqbal.hossain@bracu.ac.bd','Undergraduate Thesis Co-supervisor'],
   ['Dr. Md. Mizanur Rahman','Assistant Professor','Torrens University Australia','mdmizanur.rahman@torrens.edu.au','Worked under his supervision as a Student Researcher'],
   ['Dr. Mohammad Newaz Sharif','Assistant Professor','University of Central Florida','mohammadnewaz.sharif@ucf.edu','Worked under his supervision as a Research Associate and Developer']
