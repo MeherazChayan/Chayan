@@ -5,7 +5,7 @@ export const links = {
   doi: 'https://doi.org/10.1145/3704522.3704534'
 };
 
-export const nav = ['About', 'Education', 'Research Experience', 'Technical Experience', 'Skills', 'Publications', 'Research Projects', 'Technical Projects', 'Achievements', 'Certifications', 'References'];
+export const nav = ['About', 'Education', 'Research Experience', 'Technical Experience', 'Management & Supervision', 'Leadership & Engagement', 'Skills', 'Publications', 'Research Projects', 'Technical Projects', 'Achievements', 'Certifications', 'References'];
 
 export const interests = ['Human-Computer Interaction (HCI) and CSCW','Human-Centered and Trustworthy AI','Human–AI Interaction','Mixed-Methods User Research','Security, Privacy and Digital Trust','AI-Assisted Decision Support'];
 
@@ -17,11 +17,60 @@ export const courses = [
 ];
 
 export const experiences = [
+  { type:'Research experience', role:'Undergraduate Research Assistant', org:'BRAC University, Dhaka, Bangladesh', date:'Aug 2025–Sep 2026', supervisor:'Dr. Farida Chowdhury', mode:'On Site', mark:'BRAC University', logo:'/logos/brac.png', points:['Supported AI and HCI research through data analysis, experimental work, and literature synthesis across human-centered computing studies.','Contributed to mixed-methods research through surveys, interviews, usability studies, and clear technical and academic writing.','Investigated trustworthy AI, multimodal verification, digital trust, bounded AI-agent behaviour, privacy, and user decision-making.'] },
   { type:'Research experience', role:'Research Associate & Developer', org:'University of Central Florida, USA', date:'Jan–Jul 2026', supervisor:'Dr. Mohammad Newaz Sharif', mark:'UCF', points:['Designed and developed RES Q, a machine learning system for mental health monitoring and crisis response created for emergency professionals and crisis affected communities.','Contributed across the complete research cycle, including user needs investigation, prototype design, iterative evaluation, technical implementation, and research documentation within a multidisciplinary international team.','Helped translate research findings into a competition ready system whose human centered design and practical relevance earned a Top 8 finalist position at the Johns Hopkins Healthcare Design Competition 2026.'] },
   { type:'Research experience', role:'Undergraduate Researcher', org:'University of Canberra, Australia', date:'Sep 2024–May 2025', supervisor:'Dr. Md. Mizanur Rahman', mark:'UC', logo:'/logos/canberra.png', points:['Developed and systematically evaluated machine learning approaches for detecting cyberattacks across smart home and Internet of Things environments.','Prepared and analysed security datasets, compared model performance, and interpreted influential features to make detection outcomes more explainable and technically defensible.','Converted experimental results into clear research reporting, connecting model accuracy with the practical security requirements of connected systems.'] },
   { type:'Technical experience', role:'Avionics & Control Systems R&D Engineer', org:'Amateur Experimental Rocketry Dhaka (AERD)', date:'Oct 2023–Aug 2024', mark:'AERD', points:['Developed SkyRecon, a networking drone and mobile relay platform designed to restore communication when conventional infrastructure is unavailable, damaged, or unreliable.','Engineered essential networking capabilities, including mesh routing, link quality monitoring, delayed message delivery, relay coordination, and movement safety controls for resilient field operation.','Developed and maintained electronic valve actuation and flow control systems while contributing to flight control algorithms and integrated testing across electronics and software.'] },
   { type:'Technical experience', role:'Machine Learning Intern', org:'Interactive Cares, Dhaka', date:'Jan–Mar 2025', mark:'IC', points:['Built structured machine learning workflows for real world datasets, covering data cleaning, feature preparation, supervised model training, validation, and comparative evaluation.','Analysed model performance and documented results clearly, demonstrating disciplined experimentation and the ability to turn raw data into reproducible technical findings.'] },
   { type:'Technical experience', role:'Web Development Intern', org:'Interactive Cares, Dhaka', date:'Feb–Apr 2023', mark:'IC', points:['Developed responsive web interfaces with reusable components using HTML, CSS, JavaScript, and React, with close attention to usability, visual consistency, and maintainable implementation.','Contributed to frontend delivery and full stack development workflows, strengthening practical experience in translating requirements into functional features for users.'] }
+];
+
+export const leadership = [
+  {
+    role: 'Director',
+    org: 'BRAC University Research for Development Club',
+    mark: 'BRAC University',
+    logo: '/logos/bured-blue.png',
+    points: [
+      'Motivated students to participate in research and helped build an active, collaborative research culture across the university community.',
+      "Led the launch of Reflection, Volume 1, BRAC University's first in-house publication, coordinating the initiative from student engagement through publication."
+    ]
+  },
+  {
+    role: 'Founder & Vice President',
+    org: 'BRAC University Book Club',
+    mark: 'BRAC University',
+    logo: '/logos/bracu-book-club-linkedin.jpg',
+    points: [
+      'Co-founded the club to bring students from different disciplines together through reading, discussion, and the exchange of ideas.',
+      'Helped shape an inclusive intellectual community where members could explore perspectives beyond their academic fields and learn from one another.'
+    ]
+  }
+];
+
+export const managementExperience = [
+  {
+    role: 'Project Advisor & HCI Researcher',
+    org: 'Ghush',
+    date: 'August 2026 – Present',
+    mark: 'Ghush',
+    logo: '/logos/ghush-icon.svg',
+    points: [
+      'Directed the planning and delivery of a privacy-conscious bribery reporting platform, translating research goals and user-safety requirements into a structured product roadmap.',
+      'Supervised the design and development workflow for anonymous reporting, AI-assisted content filtering, human review, and responsible handling of sensitive public-interest reports.'
+    ]
+  },
+  {
+    role: 'Project Manager & Campaign Coordinator',
+    org: 'Social Square',
+    date: 'October 2025 – March 2026',
+    mark: 'Social Square',
+    logo: '/logos/social-square-favicon.png',
+    points: [
+      'Led product coordination for a collaborative campaign platform, organizing priorities and guiding the team from concept development through implementation and presentation.',
+      'Supervised work across partner discovery, campaign coordination, and communication workflows, contributing to the project earning third place in the 2026 National Undergraduate Startup Challenge.'
+    ]
+  }
 ];
 
 export const skillGroups: [string,string[]][] = [
