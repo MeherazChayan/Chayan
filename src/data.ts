@@ -29,6 +29,7 @@ export const leadership = [
   {
     role: 'Director',
     org: 'BRAC University Research for Development Club',
+    date: 'July 2024 – July 2025',
     mark: 'BRAC University',
     logo: '/logos/bured-blue.png',
     points: [
@@ -39,6 +40,7 @@ export const leadership = [
   {
     role: 'Founder & Vice President',
     org: 'BRAC University Book Club',
+    date: 'September 2026 – Present',
     mark: 'BRAC University',
     logo: '/logos/bracu-book-club-linkedin.jpg',
     points: [
