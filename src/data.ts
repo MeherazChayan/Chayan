@@ -107,7 +107,7 @@ export const researchProjects = [
 ];
 
 export const technicalProjects = [
-  ['HealthLinkedAI','An intelligent healthcare platform that combines disease detection models with organized patient records, doctor workflows, and clinical communication tools to support more accessible and coordinated care.','Open Prototype','https://preview--med-tech-bridge.lovable.app/'],
+  ['HealthLinkedAI','An intelligent healthcare platform that combines disease detection models with organized patient records, doctor workflows, and clinical communication tools to support more accessible and coordinated care.','Open Prototype','https://med-tech-bridge.lovable.app/'],
   ['MediVerify','A medical record integrity system that identifies potentially manipulated information, highlights suspicious changes, and communicates the associated risks clearly so healthcare stakeholders can assess the reliability of sensitive records.','Open Prototype','https://spark-create-any.lovable.app/'],
   ['Social Square','A collaborative campaign platform that enables brands to discover suitable partners, coordinate shared promotional activities, and manage campaign communication through one structured workflow designed for efficient business collaboration.','Visit Website','https://socialsquare.co/'],
   ['SkyRecon','A resilient communication platform using networking drones and mobile relay nodes to maintain connectivity during infrastructure disruption through link monitoring, adaptive routing, delayed message delivery, coordinated relays, and movement safety controls.','View GitHub','https://github.com/MeherazChayan/SkyRecon'],
